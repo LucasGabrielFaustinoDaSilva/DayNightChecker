@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body {
+
+  background: white;
+  font: normal 1.3em "Arial";
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+h1{
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.507);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div#msg {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+div {
+  text-align: center;
+  padding: 150px;
+}
+
+section {
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 400px;
+  margin: auto;
+  box-shadow: 5px 5px 10px #00000057;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+a:hover {
+  text-decoration: underline;
+}
+
